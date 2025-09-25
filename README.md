@@ -1,4 +1,4 @@
-````
+````markdown
 # Assembly Word Guesser
 
 A fun little “word guesser” game built with React and Vite. Try to guess the hidden word in under 8 incorrect guesses to save the programming world from Assembly!  
@@ -71,7 +71,7 @@ cd Assembly-Word-Guess-react-
 npm install
 # or
 yarn install
-
+````
 
 ### Running Locally (development)
 
@@ -161,5 +161,6 @@ You may choose to further break `App.jsx` into smaller components (e.g. `Keyboar
 This project is open source and free to use. Feel free to adapt and modify.
 Original by **MhdSinanC**
 
----
 
+
+If you like, I can also generate **badges**, **screenshots**, or a customized version of this README for your repo. Do you want me to push the README file to your repo (via PR) or share the final markdown file?
