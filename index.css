@@ -17,13 +17,13 @@ header {
     text-align: center;
 }
 
-header > h1 {
+header>h1 {
     color: #F9F4DA;
     font-weight: 500;
     font-size: 1.625rem;
 }
 
-header > p {
+header>p {
     color: #8E8E8E;
     font-weight: 500;
     max-width: 28rem;
@@ -55,17 +55,17 @@ section.status-box.red {
     background-color: #BA2A2A;
 }
 
-section.status-box > h2 {
+section.status-box>h2 {
     margin: 5px;
     font-weight: 500;
 }
 
-section.status-box > p {
+section.status-box>p {
     margin: 5px;
     font-size: 1.125rem;
 }
 
-section.status-box > p.farewell-text {
+section.status-box>p.farewell-text {
     font-weight: 400;
     font-style: italic;
 }
@@ -79,7 +79,7 @@ section.langChips {
     margin: 0 auto 2.25rem;
 }
 
-section.langChips > span {
+section.langChips>span {
     padding: 5px;
     font-family: "Hanken Grotesk", Arial, sans-serif;
     font-weight: 700;
@@ -88,7 +88,7 @@ section.langChips > span {
 }
 
 /* Dimmed overlay with skull on "lost" languages */
-.langChips > span.lost:before {
+.langChips>span.lost:before {
     content: "💀";
     position: absolute;
     top: 0;
@@ -98,7 +98,7 @@ section.langChips > span {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 section.random-word-container {
@@ -109,7 +109,7 @@ section.random-word-container {
     gap: 2px;
 }
 
-section.random-word-container > span {
+section.random-word-container>span {
     background-color: #323232;
     color: #F9F4DA;
     height: 40px;
@@ -131,7 +131,7 @@ section.keyboard {
     margin-bottom: 2.25rem;
 }
 
-section.keyboard > button {
+section.keyboard>button {
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -143,15 +143,15 @@ section.keyboard > button {
     cursor: pointer;
 }
 
-section.keyboard > button.green-btn {
+section.keyboard>button.green-btn {
     background-color: #10A95B;
 }
 
-section.keyboard > button.red-btn {
+section.keyboard>button.red-btn {
     background-color: #EC5D49;
 }
 
-section.keyboard > button:disabled {
+section.keyboard>button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }
@@ -161,7 +161,7 @@ div.new-game {
     justify-content: center;
 }
 
-div.new-game > button {
+div.new-game>button {
     width: 14rem;
     padding: 10px 12px;
     border: 1px solid #D7D7D7;
@@ -184,3 +184,24 @@ div.new-game > button {
     white-space: nowrap;
     border: 0;
 }
+
+/* @media (max-width: 390px) {
+
+    section.status-box {
+        margin: 20px auto;
+    }
+
+    section.status-box>p {
+        font-size: 1rem;
+    }
+
+    section.random-word-container>span {
+        width: 35px;
+        height: 35px;
+    }
+
+    section.keyboard>button {
+        width: 35px;
+        height: 35px;
+    }
+} */
